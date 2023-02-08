@@ -10,6 +10,6 @@ const consultarNoticias = async (country) => {
         resultado.articles.forEach(noticia => console.log(noticia.title));
     } catch (err) {
         console.log(err);
-    }
+    }   
 }
 consultarNoticias("us");
